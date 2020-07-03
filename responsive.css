@@ -1,0 +1,112 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .heading h2{
+    font-size:32px;
+  }
+  .lesson-wrapper{
+    height:1450px;
+    width:auto;
+    background-size:cover;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .lesson-icon p{
+    font-size:25px;
+    line width:150px;
+  }
+
+  /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+  .top-wrapper h1{
+    font-size:32px;
+  }
+
+  .top-wrapper p {
+    font-size: 20px;
+  }
+  /* Tambahkan CSS untuk tag <h2> didalam heading */
+  .heading h2{
+    font-size:20px;
+  }
+/*loooooooooooooooooooginnnnnnnnnnnnnnnnnnnnn*/
+  .gambar {
+    width: 50%;
+    clear: right;
+  }
+  .keterangan p {
+    font-size: 20px;
+  }
+  .keterangan h1 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .contact-form {
+    width: 50%;
+  }
+
+
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .container{
+    background-size:cover;
+    height:2800px;
+  }
+  .lesson-wrapper{
+    height:2800px;
+  }
+  .heading h2{
+    font-size:25px;
+  }
+  .lesson {
+    width: 100%;
+  }
+/*loooogiinnnn*/
+  .gambar {
+     width: 60%;
+     margin-top: 0px;
+   }
+   .keterangan {
+     text-align: center;
+   }
+   .keterangan h1 {
+     font-size: 24px;
+     padding-top: 10px;
+   }
+
+   .keterangan p {
+     font-size: 18px;
+   }
+   .contact-form {
+     text-align: center;
+   }
+
+
+}
+
+
+
+
+@media (max-width: 675px) {
+ul{
+	width: 50%;
+}
+  li {
+  position: fixed;
+  width: 100%;
+	padding: 4.5px 1px;
+	font-size: 12px;
+	background: white;
+  text-align: center;
+  transition: all 0.5s;
+  }
+ a:hover {
+    background: none;
+    color: #df825f;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}

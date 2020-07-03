@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+ /*hheeeeeeeeeeeeaaaaadeeeerrrrrr*/
+li {
+  list-style: none;
+}
+
+ *{
+ 	box-sizing: border-box;
+}
+
+
+.header li {
+
+   float: left;
+   padding: 33px 20px;
+ }
+
+ .header {
+   background-color: #4d446f;
+   height: 100px;
+   width: 100%;
+ }
+
+ .header-logo {
+   color: white;
+   font-family: fantasy;
+   font-size: 40px;
+   float: left;
+   padding: 25px 40px 25px 80px;
+ }
+
+.header-logo:hover {
+  cursor: pointer;
+}
+
+ .header-list ul {
+   display: inline-table;
+   font-family: "Inter", sans-serif;
+   font-weight: bold;
+   list-style: none;
+   position: relative;
+   padding: 0 35px;
+   float: right;
+   margin: 5px 5px;
+ }
+
+ .header-list ul li {
+   float: left;
+ }
+
+ .header-list ul li:hover {
+   background: #4d446f;
+ }
+
+ .header-list ul li:hover a {
+   color: snow;
+ }
+
+ .header ul li a {
+   display: block;
+   color: #df825f;
+   text-decoration: none;
+   text-align: center;
+ }
+
+
+/*yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.title {
+  width: auto;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+h1, p {
+  opacity: 1;
+}
+
+.top-wrapper {
+  padding: 80px 0 100px 0;
+  background-image: url(dawid-zawila--G3rw6Y02D0-unsplash.jpg);
+  background-size: cover;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  color: #f5f6fa;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-shadow: 2px 2px black;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 25px;
+  color: #f5f6fa;
+  opacity: 1;
+  text-shadow: 1px 1px black;
+}
+
+.btn-wrapper {
+  margin: 20px 0px;
+}
+
+
+.signup {
+  background-color: #487eb0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  opacity: 1;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*contennnnnnnnnnnnntnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+div{
+  display:block;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.lesson-wrapper {
+  height: 800px;
+  padding-bottom: 80px;
+  background-color: #DF825F;
+  background-size:cover;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  padding-bottom: 10px;
+  letter-spacing: 10px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 5px 5px black;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  margin-bottom:20px;
+  margin-left:20px;
+  cursor: pointer;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  font-family: "Inter", sans-serif;
+}
+
+.lesson-icon img {
+  opacity: 0.8;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+
+.lesson-icon img:active {
+  opacity: 1;
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+/*loooooooooooooooooooooooogiiiiiiiiiiiiiiiiinnnnnn*/
+
+.contact-form {
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+}
+.keterangan h1 {
+margin-top: : 100px;
+padding-top: 50px;
+}
+.contact-form p {
+  font-size: 20px;
+}
+.keterangan {
+  margin: 0px 80px 40px 80px;
+}
+.keterangan p {
+  font-size: 25px;
+}
+.section-title {
+  font-size: 20px;
+}
+.message {
+  margin-top: 20px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 7px #df825f;
+  border-radius: 4px;
+  border: 5px #df825f;
+  background-color: #ffb284;
+  padding: 12px 24px;
+  color: white;
+  opacity: 1;
+}
+.message:hover {
+  opacity: 0.8;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.gambar {
+  float: right;
+  margin-bottom: 80px;
+  height: 400px;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+.container-login {
+  background-color: white;
+  padding-bottom: 30px;
+}
+/*foooooooooooooooooooteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrr*/
+
+
+*{
+	box-sizing: border-box;
+}
+
+.footer-logo {
+  font-size: 40px;
+  color: white;
+  font-family: fantasy;
+  float: left;
+  padding: 33px 40px;
+
+}
+
+li:hover {
+  color: white;
+}
+
+.footer {
+  background-color: #4d446f;;
+  height: 180px;
+  padding: 40px;
+}
+
+.footer-list {
+  font-size: 12px;
+  color: #dfb15b;
+  float: right;
+
+}
+
+.footer-list li {
+  padding: 10px 5px;
+}
+
+.footer-list:hover {
+  cursor: pointer;
+}
